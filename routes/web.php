@@ -15,7 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('frontend.home');
-});
+})->name('home');
+
 
 Route::get('/listings', 'ListingController@index')->name('listings.index');
+
+// Route for the login page
+Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
+
+// Route for the registration page
+Route::get('/signup', 'Auth\RegisterController@showRegistrationForm')->name('signup');
 

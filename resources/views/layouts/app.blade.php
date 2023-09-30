@@ -13,28 +13,32 @@
 </head>
 <body>
     <header>
-        <!-- Navbar (Bootstrap Navbar Example) -->
+       <!-- Navbar (Bootstrap Navbar Example) -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="#">Space Let Marketplace</a>
+                <a class="navbar-brand" href="{{ route('home') }}">Space Let Marketplace</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="{{ route('home') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Listings</a>
+                            <a class="nav-link" href="{{ route('listings.index') }}">List Space</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link" href="{{ route('login') }}">Login</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
+                            <a class="nav-link" href="{{ route('signup') }}">Signup</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
     </header>
 
     <main class="container mt-4">
