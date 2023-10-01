@@ -45,6 +45,6 @@
     <!-- Include Bootstrap JavaScript (optional) -->
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- Include Your Custom JavaScript (if any) -->
-    <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 </body>
 </html>
