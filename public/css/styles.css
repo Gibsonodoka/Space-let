@@ -4,10 +4,15 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    overflow-x: hidden;
+}
 .navbar-nav.login-signup {
     margin-left: auto;
     margin-right: 4px;
 }
+
 
 /* Remove margin from the navigation bar */
 .navbar {
@@ -48,6 +53,8 @@
 /* Hide carousel slides by default */
 .carousel-slide {
     display: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Set max-width and max-height for carousel images */
