@@ -178,6 +178,44 @@ body {
     }
 }
 
+/* Recommended Session*/
+
+/* Style for the entire home section */
+.home-section {
+    background-color: #f8f8f8; /* Background color */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+
+/* Style for each row */
+.home-section .row {
+    margin-bottom: 20px; /* Add space between rows */
+}
+
+/* Style for each column */
+.home-section .col-md-3 {
+    padding: 0 15px; /* Add horizontal spacing between columns */
+}
+
+/* Style for the image container */
+.image-box {
+    text-align: center;
+}
+
+/* Style for the image */
+.image-box img {
+    max-width: 100%; /* Ensure images don't overflow their containers */
+    height: auto;
+    border: 1px solid #ccc; /* Add a border around images */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+}
+
+/* Style for the text beneath the image */
+.image-box p {
+    margin-top: 10px; /* Add space between image and text */
+    font-size: 16px; /* Adjust text font size */
+    color: #333; /* Text color */
+}
 
 
 
