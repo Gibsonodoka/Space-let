@@ -74,13 +74,13 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/recommended/space4.jpg') }}" alt="Image 5">
+                    <img src="{{ asset('images/recommended/space5.jpg') }}" alt="Image 5">
                     <p>Text for Image 5</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/your-image6.jpg') }}" alt="Image 6">
+                    <img src="{{ asset('images/recommended/space6.jpg') }}" alt="Image 6">
                     <p>Text for Image 6</p>
                 </div>
             </div>
