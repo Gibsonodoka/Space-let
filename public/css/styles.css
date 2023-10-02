@@ -202,6 +202,10 @@ body {
     font-size: 18px; /* Adjust the font size */
     color: #666; /* Text color */
 }
+.highlight-text {
+    color: #007bff; /* Adjust the color as needed */
+
+}
 
 .image-box {
     border: 1px solid #ccc; /* Add a border to the image container */
