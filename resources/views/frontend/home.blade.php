@@ -10,6 +10,18 @@
             <div class="custom-carousel-text">
                 <h2>Search For Workspace</h2>
                 <p>Find the perfect workspace for your needs and book it today.</p>
+                <form action="{{ route('search') }}" method="GET" class="custom-carousel-form">
+                    <div class="form-group">
+                        <input type="text" id="location" name="location" class="form-control" placeholder="Location" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="date" id="date" name="date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="capacity" name="capacity" class="form-control" placeholder="Capacity" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search Now</button>
+                </form>
             </div>
 
             <!-- Custom carousel booking form 
