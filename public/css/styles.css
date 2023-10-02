@@ -226,12 +226,12 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    position: absolute;
-    top: -25px; /* Position the thumbnail above the image */
+    position: absolute;/*
+    top: -25px; /* Position the thumbnail above the image 
     left: 50%;
     transform: translateX(-50%);
     border: 2px solid #fff; /* Add border to the thumbnail */
-}
+} 
 
 /* Style for user name and location */
 .image-box .user-info {
