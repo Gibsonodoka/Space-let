@@ -196,7 +196,7 @@ body {
 .image-box {
     border: 1px solid #ccc; /* Add a border to the image container */
     border-radius: 5px; /* Add rounded corners */
-    padding: 0; /* Add padding for spacing */
+    padding: 0; 
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
     text-align: center; /* Center text within the container */
     margin-bottom: 20px; /* Add margin between columns */
