@@ -17,6 +17,9 @@
                 <ul>
                     <li><a href="#">Our Blog</a></li>
                     <li><a href="#">Recent Articles</a></li>
+                    <li><a href="#">Policies</a></li>
+                    <li><a href="#">Terms and condition</a></li>
+
                 </ul>
             </div>
             <div class="col-md-3">

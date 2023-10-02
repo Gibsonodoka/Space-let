@@ -221,7 +221,50 @@ body {
     max-height: 100%;
 }
 
+/* Style for the user thumbnail */
+.image-box .user-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px; /* Position the thumbnail above the image */
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #fff; /* Add border to the thumbnail */
+}
 
+/* Style for user name and location */
+.image-box .user-info {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Style for user review and cost */
+.image-box .user-review,
+.image-box .cost {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Style for tags */
+.image-box .tags {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Style for the workspace heading */
+.image-box h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Style for the workspace heading span */
+.image-box h3 span {
+    color: #007bff; /* Apply color to the span text */
+}
 
 /* Style for each row */
 .home-section .row {
