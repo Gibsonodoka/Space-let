@@ -25,7 +25,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('home') }}">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item    custom-list-space">
                             <a class="nav-link" href="{{ route('listings.index') }}">List Space</a>
                         </li>
                         <li class="nav-item">
