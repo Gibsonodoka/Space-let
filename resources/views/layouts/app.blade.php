@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SpaceLet Marketplace</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Include Bootstrap CSS -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Include Your Custom CSS -->
@@ -43,7 +43,7 @@
     <main class="container mt-4">
         @yield('content')
     </main>
-    
+
     @include('layouts.footer')
     <!-- Include Bootstrap JavaScript (optional) -->
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
