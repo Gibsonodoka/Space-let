@@ -23,10 +23,10 @@
                 <!-- Column 3: CONNECT -->
                 <h4>CONNECT</h4>
                 <ul>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">WhatsApp</a></li>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
