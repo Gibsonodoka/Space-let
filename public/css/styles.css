@@ -183,13 +183,12 @@ body {
 /* Style for the entire home section */
 .home-section {
     background-color: #f8f8f8; /* Background color */
-    padding: 50px 0; /* Adjust padding as needed */
+    padding: 50px 0; 
     text-align: center;
 }
 
 .spacelet-bg-color {
     background-color:#f4f1f1 ; /* Replace with your desired background color */
-    padding: ; 
     
 }
 
