@@ -9,7 +9,7 @@
 .navbar {
     margin-top: 0 !important;
 }
- 
+
 /* Force full-width for the container */
 .container {
     max-width: 100%;
@@ -38,6 +38,7 @@
     width: 100%; /* Set width to 100% to fill the entire container */
     height: auto;
 }
+
 /* Custom class names for carousel indicators */
 .custom-carousel-indicators {
     text-align: right !important;
@@ -46,19 +47,18 @@
     padding-right: 15px !important; /* Adjust as needed for spacing */
 }
 
-
 .custom-carousel-indicators li {
     display: inline-block;
     margin: 0 3px; /* Adjust as needed for spacing between indicators */
 }
 
-
 /* Apply custom styles to the text and form in the carousel */
 
 /* Style the carousel text */
 .custom-carousel-text {
+    width: 60%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -76,38 +76,65 @@
     font-size: 16px;
 }
 
-/* Search form*/
-
-.custom-carousel-form {
-    text-align: center;
-    margin-top: 20px;
+/* Custom CSS for search form */
+.custom-search-form {
+    margin-top: 10px;
+    text-align: center; /* Center the search form elements */
 }
 
-.custom-carousel-form .form-group {
-    margin-bottom: 10px;
+.custom-search-inputs {
+    display: flex;
+    flex-direction: row; /* Align inputs horizontally */
+    align-items: center;
+    justify-content: center;
 }
 
-.custom-carousel-form input[type="text"],
-.custom-carousel-form input[type="date"],
-.custom-carousel-form input[type="number"] {
+.custom-search-input {
+    margin: 10px;
+    width: auto; /* Allow inputs to take their natural width */
+    flex-grow: 1; /* Distribute available space equally among input elements */
+}
+
+.custom-input {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 4px;
 }
 
-.custom-carousel-form button {
-    background-color: #007BFF;
+.custom-search-button {
+    background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    font-size: 18px;
+    border-radius: 4px;
+    padding: 12px 20px;
     cursor: pointer;
 }
 
-.custom-carousel-form button:hover {
+.custom-search-button:hover {
     background-color: #0056b3;
 }
 
+/* Media query for screens smaller than 768px (typical mobile screens) */
+@media screen and (max-width: 768px) {
+    .custom-search-inputs {
+        flex-direction: column; /* Stack inputs vertically on small screens */
+    }
+
+    .custom-search-input {
+        width: 100%; /* Make inputs full width on small screens */
+        margin: 2px 0; /* Reduce margin for mobile */
+        padding: 3px; /* Reduce padding for mobile */
+    }
+    .custom-carousel-text {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+    }
+}
