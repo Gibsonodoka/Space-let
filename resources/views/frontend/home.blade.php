@@ -92,7 +92,7 @@
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/your-image8.jpg') }}" alt="Image 8">
+                    <img src="{{ asset('images/recommended/space8.jpg') }}" alt="Image 8">
                     <p>Text for Image 8</p>
                 </div>
             </div>
