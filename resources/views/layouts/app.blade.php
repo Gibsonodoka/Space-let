@@ -43,7 +43,8 @@
     <main class="container mt-4">
         @yield('content')
     </main>
-
+    
+    @include('layouts.footer')
     <!-- Include Bootstrap JavaScript (optional) -->
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <!-- Include Your Custom JavaScript (if any) -->
