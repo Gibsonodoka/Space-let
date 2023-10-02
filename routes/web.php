@@ -26,3 +26,8 @@ Route::get('/login', 'Auth\LoginController@showLoginForm')->name('login');
 // Route for the registration page
 Route::get('/signup', 'Auth\RegisterController@showRegistrationForm')->name('signup');
 
+
+// routes/web.php
+
+Route::post('/bookings', 'BookingController@store')->name('bookings.store');
+
