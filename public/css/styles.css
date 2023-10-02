@@ -14,6 +14,21 @@
     margin-top: 0 !important;
 }
 
+/* Custom CSS for the "List Space" button */
+.custom-list-space .nav-link {
+    border: 2px solid #007bff; /* Border color */
+    color: #007bff; /* Text color */
+    padding: 8px 24px; /* Adjust padding as needed */
+    border-radius: 4px;
+}
+
+.custom-list-space .nav-link:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+
 /* Force full-width for the container */
 .container {
     max-width: 100%;
