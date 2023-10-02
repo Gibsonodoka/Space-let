@@ -36,15 +36,14 @@
                 -->
     </div>
 
-    <div class="row mt-4">
-        <div class="col-md-12 text-center">
-            <h1>Welcome to SpaceLet Marketplace</h1>
-            <p>Find and book the perfect workspace for your needs.</p>
-            <a href="{{ route('listings.index') }}" class="btn btn-primary">Browse Listings</a>
-        </div>
-    </div>
 
     <div class="home-section spacelet-bg-color">
+        <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>Discover Your Ideal Workspace</h2>
+                    <p>Explore our curated selection of workspaces to find the one that suits you best.</p>
+                </div>
+        </div>
         <div class="row">
             <div class="col-md-3">
                 <div class="image-box">

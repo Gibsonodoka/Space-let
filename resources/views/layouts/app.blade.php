@@ -42,7 +42,7 @@
         </nav>
     </header>
 
-    <main class="container mt-4">
+    <main class="container">
         @yield('content')
     </main>
 
