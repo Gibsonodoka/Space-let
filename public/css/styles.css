@@ -237,8 +237,11 @@ body {
 /* Style for user name and location */
 .image-box .user-info {
     margin-top: 10px;
+    margin-right: 10px;
     font-size: 16px;
     color: #333;
+    text-align: right;
+    font-weight: bold;
 }
 
 /* Style for user review and cost */
@@ -246,11 +249,13 @@ body {
 .image-box .cost {
     font-size: 14px;
     color: #777;
+    font-weight: bold;
+    margin-bottom: 0;
 }
 
 /* Style for tags */
 .image-box .tags {
-    margin-top: 10px;
+    margin-top: 3px;
     font-size: 14px;
     color: #333;
 }
