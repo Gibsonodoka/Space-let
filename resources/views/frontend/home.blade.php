@@ -43,6 +43,61 @@
             <a href="{{ route('listings.index') }}" class="btn btn-primary">Browse Listings</a>
         </div>
     </div>
+
+    <div class="home-section">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image1.jpg') }}" alt="Image 1">
+                    <p>Text for Image 1</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image2.jpg') }}" alt="Image 2">
+                    <p>Text for Image 2</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image3.jpg') }}" alt="Image 3">
+                    <p>Text for Image 3</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image4.jpg') }}" alt="Image 4">
+                    <p>Text for Image 4</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image5.jpg') }}" alt="Image 5">
+                    <p>Text for Image 5</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image6.jpg') }}" alt="Image 6">
+                    <p>Text for Image 6</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image7.jpg') }}" alt="Image 7">
+                    <p>Text for Image 7</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="image-box">
+                    <img src="{{ asset('images/your-image8.jpg') }}" alt="Image 8">
+                    <p>Text for Image 8</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <script src="{{ asset('js/main.js') }}"></script> <!-- Include your custom JavaScript file -->
