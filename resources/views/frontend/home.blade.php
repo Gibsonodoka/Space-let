@@ -48,10 +48,10 @@
         <div class="col-md-3">
             <div class="image-box">
                 <img src="{{ asset('images/recommended/space1.jpg') }}" alt="Image 1">
-                <p>Text for Image 1</p>
+                <h5>Clean and Perfect Workspace</h5>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="{{ asset('images/user-thumbnail.jpg') }}" alt="User Thumbnail" class="user-thumbnail">
+                        <img src="{{ asset('images/recommended/user-icon.png') }}" alt="User Thumbnail" class="user-thumbnail">
                     </div>
                     <div class="col-md-8">
                         <p class="user-info">User Name</p>
