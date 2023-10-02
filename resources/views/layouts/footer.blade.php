@@ -41,7 +41,7 @@
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <p>&copy; 2023 | All rights reserved Name-of-App</p>
+            <p>&copy; 2023 | All rights reserved | SpaceLet</p>
         </div>
     </div>
 </footer>
