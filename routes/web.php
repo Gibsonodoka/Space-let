@@ -31,3 +31,7 @@ Route::get('/signup', 'Auth\RegisterController@showRegistrationForm')->name('sig
 
 Route::post('/bookings', 'BookingController@store')->name('bookings.store');
 
+// Route for search
+
+Route::get('/search', 'SearchController@index')->name('search');
+
