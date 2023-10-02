@@ -54,19 +54,19 @@
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/your-image2.jpg') }}" alt="Image 2">
+                    <img src="{{ asset('images/recommended/space2.jpg') }}" alt="Image 2">
                     <p>Text for Image 2</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/your-image3.jpg') }}" alt="Image 3">
+                    <img src="{{ asset('images/recommended/space3.jpg') }}" alt="Image 3">
                     <p>Text for Image 3</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/your-image4.jpg') }}" alt="Image 4">
+                    <img src="{{ asset('images/recommended/space4.jpg') }}" alt="Image 4">
                     <p>Text for Image 4</p>
                 </div>
             </div>
@@ -74,7 +74,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/your-image5.jpg') }}" alt="Image 5">
+                    <img src="{{ asset('images/recommended/space4.jpg') }}" alt="Image 5">
                     <p>Text for Image 5</p>
                 </div>
             </div>
