@@ -8,17 +8,20 @@
 body {
     overflow-x: hidden;
 }
-/*NavBar Section*/
 
+/*NavBar Section*/
 .navbar-nav.login-signup {
     margin-left: auto;
     margin-right: 4px;
 }
 
-
 /* Remove margin from the navigation bar */
 .navbar {
     margin-top: 0 !important;
+}
+
+.logo-img {
+    margin-left: 10px;
 }
 
 /* Custom CSS for the "List Space" button */
