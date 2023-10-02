@@ -8,6 +8,8 @@
 body {
     overflow-x: hidden;
 }
+/*NavBar Section*/
+
 .navbar-nav.login-signup {
     margin-left: auto;
     margin-right: 4px;
@@ -31,6 +33,14 @@ body {
     background-color: #007bff; /* Background color on hover */
     color: #fff; /* Text color on hover */
     text-decoration: none; /* Remove underline on hover */
+}
+
+.navbar-nav.login-signup ul {
+    padding-right: 20px; /* Adjust the right padding as needed */
+}
+
+.navbar-nav.login-signup li {
+    padding-right: 10px; /* Adjust the right padding as needed */
 }
 
 
