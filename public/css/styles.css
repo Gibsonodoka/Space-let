@@ -192,6 +192,16 @@ body {
     
 }
 
+.home-section h2 {
+    font-size: 36px; /* Adjust the font size */
+    color: #333; /* Text color */
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+.home-section p {
+    font-size: 18px; /* Adjust the font size */
+    color: #666; /* Text color */
+}
 
 .image-box {
     border: 1px solid #ccc; /* Add a border to the image container */
@@ -206,6 +216,8 @@ body {
     max-width: 100%;
     max-height: 100%;
 }
+
+
 
 /* Style for each row */
 .home-section .row {
