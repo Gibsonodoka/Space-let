@@ -39,4 +39,9 @@
             </div>
         </div>
     </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>&copy; 2023 | All rights reserved Name-of-App</p>
+        </div>
+    </div>
 </footer>

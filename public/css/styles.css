@@ -192,6 +192,14 @@
     color: #007bff;
 }
 
+.footer-bottom {
+    background-color: #100f0f; /* Dark background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 0;
+}
+
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     .footer .col-md-3 {
