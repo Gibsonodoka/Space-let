@@ -40,7 +40,7 @@
     <div class="home-section spacelet-bg-color">
         <div class="row">
                 <div class="col-md-12 text-center">
-                    <h2>Discover Your Ideal Workspace</h2>
+                    <h2>Discover Your Ideal <span class="highlight-text">Workspace</span></h2>
                     <p>Explore our curated selection of workspaces to find the one that suits you best.</p>
                 </div>
         </div>
