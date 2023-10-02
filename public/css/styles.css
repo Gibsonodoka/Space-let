@@ -157,3 +157,42 @@
         border-radius: 5px;
     }
 }
+
+/*FOOTER SESSION*/
+/* Custom CSS for the four-column footer */
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+    color: #007bff;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer .col-md-3 {
+        margin-bottom: 20px;
+    }
+}
