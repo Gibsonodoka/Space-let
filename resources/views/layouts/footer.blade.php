@@ -33,7 +33,7 @@
                 <!-- Column 4: MEMBERS -->
                 <h4>MEMBERS</h4>
                 <ul>
-                <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                    <li><a href="#"><i class="fas fa-sign-in-alt"></i> Login</a></li>
                     <li><a href="#"><i class="fas fa-user-plus"></i> Signup</a></li>
                 </ul>
             </div>
