@@ -45,12 +45,34 @@
                 </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
-                <div class="image-box">
-                    <img src="{{ asset('images/recommended/space1.jpg') }}" alt="Image 1">
-                    <p>Text for Image 1</p>
+        <div class="col-md-3">
+            <div class="image-box">
+                <img src="{{ asset('images/recommended/space1.jpg') }}" alt="Image 1">
+                <p>Text for Image 1</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="{{ asset('images/user-thumbnail.jpg') }}" alt="User Thumbnail">
+                </div>
+                <div class="col-md-8">
+                    <p>User Name</p>
+                    <p>Location</p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>User Review</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Cost of Workspace</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Tags: Power, Internet, Serene</p>
+                </div>
+            </div>
+        </div>
             <div class="col-md-3">
                 <div class="image-box">
                     <img src="{{ asset('images/recommended/space2.jpg') }}" alt="Image 2">
