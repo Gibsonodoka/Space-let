@@ -226,7 +226,8 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    position: absolute;/*
+    position: absolute;
+    border: 2px solid #fff;/*
     top: -25px; /* Position the thumbnail above the image 
     left: 50%;
     transform: translateX(-50%);
