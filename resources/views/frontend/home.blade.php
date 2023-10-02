@@ -48,7 +48,7 @@
         <div class="row">
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/your-image1.jpg') }}" alt="Image 1">
+                    <img src="{{ asset('images/recommended/space1.jpg') }}" alt="Image 1">
                     <p>Text for Image 1</p>
                 </div>
             </div>
