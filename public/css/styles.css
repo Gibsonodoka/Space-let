@@ -76,3 +76,38 @@
     font-size: 16px;
 }
 
+/* Search form*/
+
+.custom-carousel-form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.custom-carousel-form .form-group {
+    margin-bottom: 10px;
+}
+
+.custom-carousel-form input[type="text"],
+.custom-carousel-form input[type="date"],
+.custom-carousel-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.custom-carousel-form button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.custom-carousel-form button:hover {
+    background-color: #0056b3;
+}
+
