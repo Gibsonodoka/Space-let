@@ -44,7 +44,7 @@
         </div>
     </div>
 
-    <div class="home-section">
+    <div class="home-section spacelet-bg-color">
         <div class="row">
             <div class="col-md-3">
                 <div class="image-box">
@@ -72,30 +72,31 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3">
+        <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/recommended/space5.jpg') }}" alt="Image 5">
+                    <img src="{{ asset('images/recommended/space5.jpg') }}" alt="Image 1">
                     <p>Text for Image 5</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/recommended/space6.jpg') }}" alt="Image 6">
+                    <img src="{{ asset('images/recommended/space6.jpg') }}" alt="Image 2">
                     <p>Text for Image 6</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/recommended/space7.jpg') }}" alt="Image 7">
+                    <img src="{{ asset('images/recommended/space7.jpg') }}" alt="Image 3">
                     <p>Text for Image 7</p>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="image-box">
-                    <img src="{{ asset('images/recommended/space8.jpg') }}" alt="Image 8">
+                    <img src="{{ asset('images/recommended/space8.jpg') }}" alt="Image 4">
                     <p>Text for Image 8</p>
                 </div>
             </div>
+            <!-- Repeat the same structure for additional columns -->
         </div>
     </div>
 </div>

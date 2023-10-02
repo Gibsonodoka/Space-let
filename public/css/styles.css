@@ -187,6 +187,27 @@ body {
     text-align: center;
 }
 
+.spacelet-bg-color {
+    background-color:#f4f1f1 ; /* Replace with your desired background color */
+    padding: ; 
+    
+}
+
+
+.image-box {
+    border: 1px solid #ccc; /* Add a border to the image container */
+    border-radius: 5px; /* Add rounded corners */
+    padding: 0; /* Add padding for spacing */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+    text-align: center; /* Center text within the container */
+    margin-bottom: 20px; /* Add margin between columns */
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /* Style for each row */
 .home-section .row {
     margin-bottom: 20px; /* Add space between rows */
