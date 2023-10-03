@@ -129,28 +129,33 @@
 
     <div class="testimonial-section">
     <div class="container">
-        <h2>What Our Users Say</h2>
+        <h2>What Our Customers Say</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="testimonial">
+                    <img src="{{ asset('images/testimonials/user1.jpg') }}" alt="User 1">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nisi, id facilisis dolor convallis non.</p>
                     <p><strong>John Doe</strong></p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="testimonial">
+                    <img src="{{ asset('images/testimonials/user2.jpg') }}" alt="User 2">
                     <p>Ut dictum, justo eget consequat facilisis, elit tortor luctus ante, eget dignissim ex odio nec neque.</p>
                     <p><strong>Jane Smith</strong></p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="testimonial">
+                    <img src="{{ asset('images/testimonials/user3.jpg') }}" alt="User 3">
                     <p>Quisque ac nisi sit amet risus vestibulum volutpat. Integer eget justo et nulla hendrerit pulvinar ac at felis.</p>
                     <p><strong>David Johnson</strong></p>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
 </div>
 
 </div>
