@@ -21,3 +21,5 @@ Route::post('/bookings', 'BookingController@store')->name('bookings.store');
 // Route for search
 Route::get('/search', 'SearchController@index')->name('search');
 
+Route::get('/listings/create', 'ListingsController@create')->name('listings.create');
+
