@@ -120,6 +120,21 @@
             <!-- Repeat the same structure for additional columns -->
         </div>
     </div>
+
+    <div class="cta-section spacelet-bg-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p>Do you have a nice and good-looking workspace?</p>
+                <p>Why not list it and make some cool cash out of it.</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <a href="{{ route('listings.create') }}" class="btn btn-primary">Join Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 
 <script src="{{ asset('js/main.js') }}"></script> <!-- Include your custom JavaScript file -->
