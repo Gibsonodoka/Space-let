@@ -36,7 +36,7 @@ Route::post('/bookings', 'BookingController@store')->name('bookings.store');
 Route::get('/search', 'SearchController@index')->name('search');
 
 // routes/web.php
+se App\Http\Controllers\ListingsController; // Import the controller
 
 // Define a route for creating listings
-Route::get('/listings/create', 'YourControllerName@create')->name('listings.create');
-
+Route::get('/listings/create', [ListingsController::class, 'create'])->name('listings.create');
