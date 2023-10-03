@@ -121,18 +121,12 @@
         </div>
     </div>
 
-    <div class="cta-section spacelet-bg-color">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-                <p>Do you have a nice and good-looking workspace?</p>
-                <p>Why not list it and make some cool cash out of it.</p>
-            </div>
-            <div class="col-md-4 text-right">
-                <a href="{{ route('listings.create') }}" class="btn btn-primary">Join Now</a>
-            </div>
-        </div>
+    <div class="cta-section">
+        <h2 class="cta-heading">Do you have a nice and good-looking working space?</h2>
+        <p class="cta-text">Why not list it and make some cool cash out of it</p>
+        <a href="{{ route('listings.create') }}" class="cta-button">Join now</a>
     </div>
+
 </div>
 
 </div>
