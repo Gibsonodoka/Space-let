@@ -306,10 +306,10 @@ body {
 
 /* Call to Action (CTA) Section Styles */
 .cta-section {
-    background-color: #007bff; /* Background color for the CTA section */
+    background-color: rgba(0, 123, 255, 0.7); /* Background color with transparency */
     color: #fff; /* Text color */
     padding: 50px; /* Adjust padding as needed */
-    text-align: center; /* Center-align the content */
+    text-align: center ; /* Center-align the content */
 }
 
 .cta-heading {
