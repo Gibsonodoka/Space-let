@@ -127,6 +127,32 @@
         <a href="{{ route('listings.create') }}" class="cta-button">Join now</a>
     </div>
 
+    <div class="testimonial-section">
+    <div class="container">
+        <h2>What Our Customers Say</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod tincidunt nisi, id facilisis dolor convallis non.</p>
+                    <p><strong>John Doe</strong></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>Ut dictum, justo eget consequat facilisis, elit tortor luctus ante, eget dignissim ex odio nec neque.</p>
+                    <p><strong>Jane Smith</strong></p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <p>Quisque ac nisi sit amet risus vestibulum volutpat. Integer eget justo et nulla hendrerit pulvinar ac at felis.</p>
+                    <p><strong>David Johnson</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </div>
 
 </div>
