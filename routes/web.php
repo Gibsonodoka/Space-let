@@ -35,3 +35,8 @@ Route::post('/bookings', 'BookingController@store')->name('bookings.store');
 
 Route::get('/search', 'SearchController@index')->name('search');
 
+// routes/web.php
+
+// Define a route for creating listings
+Route::get('/listings/create', 'YourControllerName@create')->name('listings.create');
+
