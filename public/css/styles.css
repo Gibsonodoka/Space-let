@@ -304,6 +304,39 @@ body {
 
 /*CALL TO ACTION SECTION*/
 
+/* Call to Action (CTA) Section Styles */
+.cta-section {
+    background-color: #007bff; /* Background color for the CTA section */
+    color: #fff; /* Text color */
+    padding: 50px; /* Adjust padding as needed */
+    text-align: center; /* Center-align the content */
+}
+
+.cta-heading {
+    font-size: 24px; /* Font size for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.cta-text {
+    font-size: 18px; /* Font size for the CTA text */
+    margin-bottom: 30px; /* Spacing below the text */
+}
+
+.cta-button {
+    background-color: #fff; /* Background color for the button */
+    color: #007bff; /* Text color for the button */
+    padding: 15px 30px; /* Adjust padding as needed */
+    font-size: 20px; /* Font size for the button text */
+    text-decoration: none; /* Remove underlines from the button text */
+    border-radius: 5px; /* Add border radius for a rounded appearance */
+}
+
+.cta-button:hover {
+    background-color: #0056b3; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
 
 /*FOOTER SESSION*/
 
