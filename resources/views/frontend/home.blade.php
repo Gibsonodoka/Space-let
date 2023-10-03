@@ -129,7 +129,7 @@
 
     <div class="testimonial-section">
     <div class="container">
-        <h2>What Our Customers Say</h2>
+        <h2>What Our Users Say</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="testimonial">
