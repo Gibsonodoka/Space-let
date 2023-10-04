@@ -7,6 +7,7 @@
 /* Main Body style*/
 body {
     overflow-x: hidden;
+    background-color:;
 }
 
 /*NavBar Section*/
@@ -55,13 +56,14 @@ body {
 
 /* Set full-width and remove margin for the carousel-container */
 .carousel-container {
-    max-width: 100%;
+    width: 100% !important; /* Change max-width to width */
     height: 600px; /* Adjust the height as needed */
     overflow: hidden;
     position: relative;
     margin: 0;
     padding-top: 0; /* Remove padding from the top of the carousel container */
 }
+
 
 /* Hide carousel slides by default */
 .carousel-slide {
@@ -188,6 +190,7 @@ body {
 }
 
 .spacelet-bg-color {
+    max-width: 100%;
     background-color:#f4f1f1 ; /* Replace with your desired background color */
     
 }

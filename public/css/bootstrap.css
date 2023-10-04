@@ -744,6 +744,7 @@ progress {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   width: 100%;
+  background-color: #f4f1f1;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
@@ -6020,6 +6021,7 @@ textarea.form-control-lg {
 
 .carousel {
   position: relative;
+  width: 100%;
 }
 
 .carousel.pointer-event {
