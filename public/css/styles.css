@@ -54,10 +54,10 @@ body {
 
 /* Set full-width and remove margin for the space-carousel-container */
 .space-carousel-container {
+    width: 100%;
     height: 600px; /* Adjust the height as needed */
     overflow: hidden;
     position: relative;
-    margin: 0;
     padding-top: 0; /* Remove padding from the top of the carousel container */
 }
 
