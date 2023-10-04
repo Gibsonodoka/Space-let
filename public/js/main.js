@@ -1,6 +1,6 @@
 // Get references to the carousel elements
-const carouselContainerElement = document.querySelector('.space-carousel-container'); // Updated class name
-const slides = document.querySelectorAll('.space-slide'); // Updated class name
+const carouselContainerElement = document.querySelector('.carousel-container');
+const slides = document.querySelectorAll('.carousel-slide');
 
 let currentSlideIndex = 0;
 
