@@ -7,7 +7,6 @@
 /* Main Body style*/
 body {
     overflow-x: hidden;
-    background-color:;
 }
 
 /*NavBar Section*/
@@ -50,13 +49,11 @@ body {
 
 /* Force full-width for the container */
 .container {
-    max-width: ;
     padding: 0;
 }
 
 /* Set full-width and remove margin for the carousel-container */
 .carousel-container {
-    width: 100% !important; /* Change max-width to width */
     height: 600px; /* Adjust the height as needed */
     overflow: hidden;
     position: relative;
