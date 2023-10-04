@@ -4,12 +4,13 @@
     margin: 0;
     padding: 0;
 }
-/* Main Body style*/
+
+/* Main Body style */
 body {
     overflow-x: hidden;
 }
 
-/*NavBar Section*/
+/* NavBar Section */
 .navbar-nav.login-signup {
     margin-left: auto;
     margin-right: 4px;
@@ -25,14 +26,14 @@ body {
 }
 
 /* Custom CSS for the "List Space" button */
-.custom-list-space .nav-link {
+.space-list-space .nav-link {
     border: 2px solid #007bff; /* Border color */
     color: #007bff; /* Text color */
     padding: 8px 24px; /* Adjust padding as needed */
     border-radius: 4px;
 }
 
-.custom-list-space .nav-link:hover {
+.space-list-space .nav-link:hover {
     background-color: #007bff; /* Background color on hover */
     color: #fff; /* Text color on hover */
     text-decoration: none; /* Remove underline on hover */
@@ -46,14 +47,13 @@ body {
     padding-right: 10px; /* Adjust the right padding as needed */
 }
 
-
 /* Force full-width for the container */
 .container {
     padding: 0;
 }
 
-/* Set full-width and remove margin for the carousel-container */
-.carousel-container {
+/* Set full-width and remove margin for the space-carousel-container */
+.space-carousel-container {
     height: 600px; /* Adjust the height as needed */
     overflow: hidden;
     position: relative;
@@ -61,39 +61,38 @@ body {
     padding-top: 0; /* Remove padding from the top of the carousel container */
 }
 
-
-/* Hide carousel slides by default */
-.carousel-slide {
+/* Hide space slides by default */
+.space-slide {
     display: none;
     margin: 0;
     padding: 0;
 }
 
-/* Set max-width and max-height for carousel images */
-.carousel-slide img {
+/* Set max-width and max-height for space images */
+.space-slide img {
     max-width: 100%;
     max-height: 100%;
     width: 100%; /* Set width to 100% to fill the entire container */
     height: auto;
 }
 
-/* Custom class names for carousel indicators */
-.custom-carousel-indicators {
+/* Custom class names for space indicators */
+.space-carousel-indicators {
     text-align: right !important;
     right: 0 !important;
     left: auto !important;
     padding-right: 15px !important; /* Adjust as needed for spacing */
 }
 
-.custom-carousel-indicators li {
+.space-carousel-indicators li {
     display: inline-block;
     margin: 0 3px; /* Adjust as needed for spacing between indicators */
 }
 
-/* Apply custom styles to the text and form in the carousel */
+/* Apply custom styles to the text and form in the space carousel */
 
-/* Style the carousel text */
-.custom-carousel-text {
+/* Style the space text */
+.space-carousel-text {
     width: 60%;
     position: absolute;
     top: 40%;
@@ -106,41 +105,41 @@ body {
     border-radius: 5px;
 }
 
-.custom-carousel-text h2 {
+.space-carousel-text h2 {
     font-size: 24px;
 }
 
-.custom-carousel-text p {
+.space-carousel-text p {
     font-size: 16px;
 }
 
 /* Custom CSS for search form */
-.custom-search-form {
+.space-search-form {
     margin-top: 10px;
     text-align: center; /* Center the search form elements */
 }
 
-.custom-search-inputs {
+.space-search-inputs {
     display: flex;
     flex-direction: row; /* Align inputs horizontally */
     align-items: center;
     justify-content: center;
 }
 
-.custom-search-input {
+.space-search-input {
     margin: 10px;
     width: auto; /* Allow inputs to take their natural width */
     flex-grow: 1; /* Distribute available space equally among input elements */
 }
 
-.custom-input {
+.space-input {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.custom-search-button {
+.space-search-button {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -149,22 +148,23 @@ body {
     cursor: pointer;
 }
 
-.custom-search-button:hover {
+.space-search-button:hover {
     background-color: #0056b3;
 }
 
 /* Media query for screens smaller than 768px (typical mobile screens) */
 @media screen and (max-width: 768px) {
-    .custom-search-inputs {
+    .space-search-inputs {
         flex-direction: column; /* Stack inputs vertically on small screens */
     }
 
-    .custom-search-input {
+    .space-search-input {
         width: 100%; /* Make inputs full width on small screens */
         margin: 2px 0; /* Reduce margin for mobile */
         padding: 3px; /* Reduce padding for mobile */
     }
-    .custom-carousel-text {
+
+    .space-carousel-text {
         position: absolute;
         top: 30%;
         left: 50%;
@@ -176,6 +176,9 @@ body {
         border-radius: 5px;
     }
 }
+
+/* Recommended Session - Rest of the CSS remains the same */
+
 
 /* Recommended Session*/
 
