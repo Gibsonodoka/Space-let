@@ -2,35 +2,35 @@
 
 @section('content')
 <div class="container">
-    <div class="carousel-container">
-        <div class="carousel-slide">
+    <div class="space-carousel-container"> <!-- Updated class name -->
+        <div class="space-slide"> <!-- Updated class name -->
             <img src="{{ asset('images/carousel/slide1.jpg') }}" alt="Slide 1">
             
-            <!-- Custom carousel text -->
-            <div class="custom-carousel-text">
+            <!-- Updated class name for the carousel text -->
+            <div class="space-carousel-text"> <!-- Updated class name -->
                 <h2>Search For Workspace</h2>
                 <p>Find the perfect workspace for your needs and book it today.</p>
-                <form action="{{ route('search') }}" method="GET" class="custom-search-form">
+                <form action="{{ route('search') }}" method="GET" class="space-search-form"> <!-- Updated class name -->
                     @csrf
-                    <div class="custom-search-inputs">
-                        <div class="custom-search-input">
-                        <select id="location" name="location" class="custom-input">
-                            <option value="Port Harcourt">Select location</option>
-                            <option value="Port Harcourt">Port Harcourt</option>
-                            <option value="Lagos">Lagos</option>
-                            <option value="Abuja">Abuja</option>
-                        </select>
+                    <div class="space-search-inputs"> <!-- Updated class name -->
+                        <div class="space-search-input"> <!-- Updated class name -->
+                            <select id="location" name="location" class="space-input"> <!-- Updated class name -->
+                                <option value="Port Harcourt">Select location</option>
+                                <option value="Port Harcourt">Port Harcourt</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Abuja">Abuja</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn custom-search-button">Search</button>
+                        <button type="submit" class="btn space-search-button">Search</button> <!-- Updated class name -->
                     </div>
                 </form>
             </div>
         </div>
-        <!-- Add more carousel slides with custom class names as needed
-        <div class="carousel-slide">
+        <!-- Add more carousel slides with updated class names as needed
+        <div class="space-slide">
             <img src="{{ asset('images/carousel/slide2.jpg') }}" alt="Slide 2">
         </div>
-        <div class="carousel-slide">
+        <div class="space-slide">
             <img src="{{ asset('images/carousel/slide3.jpg') }}" alt="Slide 3">
         </div>
                 -->
