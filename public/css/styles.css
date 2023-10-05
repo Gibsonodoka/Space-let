@@ -287,7 +287,7 @@ body {
     text-align: center;
 }
 
-/* Style for the image */
+/* Style for the box image */
 .image-box img {
     max-width: 100%; /* Ensure images don't overflow their containers */
     height: auto;
