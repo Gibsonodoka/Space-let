@@ -73,3 +73,4 @@ class Kernel extends HttpKernel
      *
      * @var array<string, class-string|string>
      */
+// end of kernel 
