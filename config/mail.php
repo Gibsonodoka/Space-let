@@ -17,7 +17,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Mailer Configurations
+    | Mailer Configuration
     |--------------------------------------------------------------------------
     |
     | Here you may configure all of the mailers used by your application plus
